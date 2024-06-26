@@ -1,0 +1,36 @@
+.LannisTab {
+    --white: #fff;
+    --white1: #ddd;
+    --white2: #a38957;
+    --white3: #BFA380;
+    --dark: #111;
+    --dark2:#333;
+    --dark1:#181818; 
+    --accent1:#a38057;
+    --accent2:#535f6f;
+   --fondored: url(https://i.imgur.com/r5F9kZq.png);
+    --fuente1: 'Game of Thrones';
+    --fuente2: 'Playfair Display';
+  }
+  
+  @font-face { font-family:'Game of Thrones'; src:url('https://dl.dropboxusercontent.com/scl/fi/7ffo1nc597xhnltpykbi6/Game-of-Thrones.ttf?rlkey=m0bpk2sg1cjewq16o8z2n6a7b&st=4vsynk82&dl=0'); }
+  
+  
+  *, :before, :after {
+      border: none;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  a {
+      color: #d9c6a7;
+  }
+  
+  .LannisTab { box-sizing: border-box; width:750px; display:flex; flex-flow:column;}
+  .LannisTab br { display:none;}
+
+.TabFooter { width:100%; height:260px; padding:30px; padding-top: 10px; padding-bottom: 10px; overflow:auto; font-size:12px; line-height:16px; text-align:justify; color:var(--white3); font-family:var(--fuente2); font-style:italic; border-top:1px solid var(--accent1);}
+.TabFooter h5 { font-family:var(--fuente1); font-size:25px; line-height:50px; color:var(--accent2); font-style:normal; font-weight:200;}
+.TabFooter strong { color:var(--accent2); padding-right:10px; font-weight:800;}
+.TabFooter br { display:block; }
